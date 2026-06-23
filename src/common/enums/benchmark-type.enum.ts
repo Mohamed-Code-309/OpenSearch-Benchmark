@@ -1,0 +1,6 @@
+export enum BenchmarkType {
+  EXACT_MATCH = 'EXACT_MATCH',
+  FUZZY_MATCH = 'FUZZY_MATCH',
+  PARTIAL_MATCH = 'PARTIAL_MATCH',
+  MULTI_FIELD = 'MULTI_FIELD',
+}
